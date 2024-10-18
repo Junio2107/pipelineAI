@@ -23,7 +23,6 @@ def main():
                 quantidade = quantidade,
                 produto = produto
                 )
-            # st.write(venda)
             salvar_no_postgres(venda)
         except ValidationError as e:
             st.error(f'Deu erro: {e}')
