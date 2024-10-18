@@ -1,0 +1,11 @@
+# pra criar esse arquivo, tem que digitar mkdocs new . no terminal
+
+site_name: My Docs
+
+theme:
+  name: "material"
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
